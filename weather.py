@@ -30,6 +30,7 @@ def Choose_again():
         return get_current_weather()
     else:
         if __name__ == '__main__':
+         time.sleep(3)
          sys.exit()
         else:
             time.sleep(3)
