@@ -24,4 +24,14 @@ def get_current_weather():
 if __name__ == "__main__":
     get_current_weather()
 
-time.sleep(10)
+def Choose_again():
+    choice = input('Press 1 to choose another city> ')
+    if choice == '1':
+        return get_current_weather()
+    else:
+        if __name__ == '__main__':
+         sys.exit()
+        else:
+            time.sleep(3)
+            return
+Choose_again()
